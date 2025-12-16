@@ -611,26 +611,6 @@
       "unionType": "Fusion"
     },
     {
-      "atomType": "Move",
-      "x": 0.5604099244875944,
-      "y": 0.43187066974595845,
-      "uniqueID": "id-178",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": -134.82426627478202
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
       "atomType": "Equation",
       "x": 0.38133764832793954,
       "y": 0.9099307159353348,
@@ -643,6 +623,30 @@
         }
       ],
       "currentEquation": "-x"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.529126213592233,
+      "y": 0.5542725173210161,
+      "uniqueID": "id-192",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 6.5
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.6040992448759439,
+      "y": 0.5681293302540416,
+      "uniqueID": "id-195",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -855,16 +859,6 @@
       "ap2Name": "xDist",
       "ap1ID": "id-161",
       "ap2ID": "id-155"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-172",
-      "ap2ID": "id-178"
-    },
-    {
-      "ap2Name": "xDist",
-      "ap1ID": "id-184",
-      "ap2ID": "id-178"
     }
   ],
   "unitsKey": "MM",
