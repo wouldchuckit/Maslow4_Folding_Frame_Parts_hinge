@@ -23,7 +23,7 @@
       "ioValue": 10
     },
     {
-      "name": "BeamHeight_yo",
+      "name": "BeamHeight",
       "ioValue": 10
     }
   ],
@@ -41,14 +41,6 @@
       "y": 0.23690069284064663,
       "uniqueID": "id-10",
       "name": "WoodThick",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.36890069284064664,
-      "uniqueID": "id-15",
-      "name": "BeamHeight_yo",
       "type": "number"
     },
     {
@@ -89,10 +81,36 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.5740831408775982,
+      "y": 0.3071593533487298,
       "uniqueID": "id-31",
       "name": "BeamLength",
       "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.3695150115473441,
+      "uniqueID": "id-37",
+      "name": "BeamHeight",
+      "type": "number"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.24271844660194175,
+      "y": 0.6096997690531177,
+      "uniqueID": "id-40",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
