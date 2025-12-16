@@ -20,11 +20,11 @@
     },
     {
       "name": "BeamLength",
-      "ioValue": 10
+      "ioValue": 2438
     },
     {
       "name": "BeamHeight",
-      "ioValue": 10
+      "ioValue": 203
     }
   ],
   "topLevel": true,
@@ -112,6 +112,43 @@
         }
       ],
       "currentEquation": "x * 180/ pi"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.10949298813376485,
+      "y": 0.23556581986143188,
+      "uniqueID": "id-45",
+      "name": "x * y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1,
+          "currentEquation": "1"
+        },
+        {
+          "name": "y",
+          "ioValue": 3
+        }
+      ],
+      "currentEquation": "x * y"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.11650485436893203,
+      "y": 0.36027713625866054,
+      "uniqueID": "id-52",
+      "name": "x * y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 2
+        }
+      ],
+      "currentEquation": "x * y"
     }
   ],
   "allConnectors": [
