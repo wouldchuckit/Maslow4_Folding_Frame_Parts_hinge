@@ -7,19 +7,20 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 10
+      "ioValue": 19.8
     },
     {
       "name": "BeamHeight",
-      "ioValue": 10
+      "ioValue": 10,
+      "currentEquation": "10"
     },
     {
-      "name": "4",
-      "ioValue": 10
+      "name": "TabletopWidth",
+      "ioValue": 4
     },
     {
-      "name": "8",
-      "ioValue": 10
+      "name": "TabletopLength",
+      "ioValue": 8
     },
     {
       "name": "BeamLength",
@@ -63,15 +64,15 @@
       "x": 0.01815,
       "y": 0.43490069284064664,
       "uniqueID": "id-17",
-      "name": "4",
+      "name": "TabletopWidth",
       "type": "number"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.5009006928406466,
+      "y": 0.5080831408775981,
       "uniqueID": "id-20",
-      "name": "8",
+      "name": "TabletopLength",
       "type": "number"
     },
     {
@@ -83,12 +84,12 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 10,
+          "ioValue": 4,
           "currentEquation": "1"
         },
         {
           "name": "y",
-          "ioValue": 10
+          "ioValue": 8
         }
       ],
       "currentEquation": "atan(x/y)"
