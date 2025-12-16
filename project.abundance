@@ -73,9 +73,39 @@
       "uniqueID": "id-20",
       "name": "TabletopLength",
       "type": "number"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.16936353829557713,
+      "y": 0.4988452655889145,
+      "uniqueID": "id-23",
+      "name": "atan(x/y)",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 10,
+          "currentEquation": "1"
+        },
+        {
+          "name": "y",
+          "ioValue": 10
+        }
+      ],
+      "currentEquation": "atan(x/y)"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-17",
+      "ap2ID": "id-23"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-20",
+      "ap2ID": "id-23"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
