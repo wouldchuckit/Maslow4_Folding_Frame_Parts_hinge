@@ -869,7 +869,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 99
+          "ioValue": 138.6
         }
       ]
     },
@@ -878,7 +878,7 @@
       "x": 0.7254584681769147,
       "y": 0.9330254041570438,
       "uniqueID": "id-575",
-      "name": "x*5",
+      "name": "x*7",
       "ioValues": [
         {
           "name": "x",
@@ -886,7 +886,7 @@
           "currentEquation": "x"
         }
       ],
-      "currentEquation": "x*5"
+      "currentEquation": "x*7"
     },
     {
       "atomType": "Difference",
@@ -896,8 +896,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.9466019417475728,
-      "y": 0.6258660508083141,
+      "x": 0.9212513484358145,
+      "y": 0.9145496535796767,
       "uniqueID": "id-583",
       "ioValues": [
         {
@@ -927,6 +927,33 @@
             },
             "color": "#aad7f2",
             "dimension": "2D"
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-cut-circle-69.3-circle-10-134.82426627478202-0-0",
+            "dimension": "2D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
           }
         }
       ],
@@ -1353,6 +1380,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-579",
       "ap2ID": "id-587"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-583",
+      "ap2ID": "id-421"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-587",
+      "ap2ID": "id-583"
     }
   ],
   "unitsKey": "MM",
