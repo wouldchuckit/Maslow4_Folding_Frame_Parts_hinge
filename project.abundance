@@ -18,14 +18,6 @@
       "ioValue": 8
     },
     {
-      "name": "BeamLength",
-      "ioValue": 2438
-    },
-    {
-      "name": "BeamHeight",
-      "ioValue": 203
-    },
-    {
       "name": "BoltDiameter",
       "ioValue": 20
     },
@@ -83,22 +75,6 @@
         }
       ],
       "currentEquation": "atan(x/y) -.03"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.308,
-      "uniqueID": "id-31",
-      "name": "BeamLength",
-      "type": "number"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.374,
-      "uniqueID": "id-37",
-      "name": "BeamHeight",
-      "type": "number"
     },
     {
       "atomType": "Equation",
