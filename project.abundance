@@ -727,6 +727,24 @@
       "uniqueID": "id-217",
       "name": "BitDiameter",
       "type": "number"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.5571736785329018,
+      "y": 0.930715935334873,
+      "uniqueID": "id-220",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 6.5
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
@@ -964,6 +982,26 @@
       "ap2Name": "yDist",
       "ap1ID": "id-213",
       "ap2ID": "id-207"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-217",
+      "ap2ID": "id-198"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-217",
+      "ap2ID": "id-192"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-217",
+      "ap2ID": "id-195"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-217",
+      "ap2ID": "id-220"
     }
   ],
   "unitsKey": "MM",
