@@ -164,9 +164,32 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.17745415318230853,
-      "y": 0.7367205542725173,
+      "x": 0.16235167206040993,
+      "y": 0.6812933025404158,
       "uniqueID": "id-59",
+      "name": ".5*x* tan(.5*pi - y)",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 203
+        },
+        {
+          "name": "y",
+          "ioValue": 0.4336476090008061
+        },
+        {
+          "name": "pi",
+          "ioValue": 3.141592653589793,
+          "currentEquation": "3.141592653589793"
+        }
+      ],
+      "currentEquation": ".5*x* tan(.5*pi - y)"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1855447680690399,
+      "y": 0.8568129330254042,
+      "uniqueID": "id-64",
       "name": "x + y",
       "ioValues": [
         {
@@ -196,6 +219,16 @@
       "ap2Name": "x",
       "ap1ID": "id-23",
       "ap2ID": "id-40"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-23",
+      "ap2ID": "id-59"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-37",
+      "ap2ID": "id-59"
     }
   ],
   "unitsKey": "MM",
