@@ -269,8 +269,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4681769147788565,
-      "y": 0.27251732101616627,
+      "x": 0.39104638619201726,
+      "y": 0.20092378752886836,
       "uniqueID": "id-95",
       "ioValues": [
         {
@@ -289,18 +289,126 @@
     },
     {
       "atomType": "ShrinkWrap",
-      "x": 0.5706580366774541,
-      "y": 0.3787528868360277,
+      "x": 0.5544768069039914,
+      "y": 0.325635103926097,
       "uniqueID": "id-101",
       "name": "Shrink Wrap",
       "ioValues": [
         {
           "name": "Shape 3",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "extrude-move-circle-29.700000000000003-134.82426627478202-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19.8",
+            "dimension": "3D",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": []
+          }
         },
         {
           "name": "Shape 4",
+          "ioValue": {
+            "geometry": "extrude-move-rectangle-19.8-59.400000000000006-9.9-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-19.8",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 5",
           "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.470873786407767,
+      "y": 0.20785219399538107,
+      "uniqueID": "id-107",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 19.8
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3915857605177993,
+      "y": 0.47344110854503463,
+      "uniqueID": "id-111",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 9.9
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.20711974110032363,
+      "y": 0.5011547344110855,
+      "uniqueID": "id-117",
+      "name": "x / 2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.8
+        }
+      ],
+      "currentEquation": "x / 2"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.46332254584681765,
+      "y": 0.48036951501154734,
+      "uniqueID": "id-121",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 19.8
         }
       ]
     }
@@ -320,6 +428,21 @@
       "ap2Name": "x length",
       "ap1ID": "id-10",
       "ap2ID": "id-87"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-10",
+      "ap2ID": "id-107"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-10",
+      "ap2ID": "id-117"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-10",
+      "ap2ID": "id-121"
     },
     {
       "ap2Name": "x",
@@ -386,7 +509,41 @@
       "ap1ID": "id-69",
       "ap2ID": "id-95"
     },
-    null
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-73",
+      "ap2ID": "id-95"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-87",
+      "ap2ID": "id-111"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-95",
+      "ap2ID": "id-107"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-107",
+      "ap2ID": "id-101"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-111",
+      "ap2ID": "id-121"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-117",
+      "ap2ID": "id-111"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-121",
+      "ap2ID": "id-101"
+    }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
