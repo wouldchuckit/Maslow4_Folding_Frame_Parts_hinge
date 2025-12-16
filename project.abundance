@@ -78,7 +78,7 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.05124056094929881,
+      "x": 0.0744336569579288,
       "y": 0.836027713625866,
       "uniqueID": "id-40",
       "name": "x * 180/ pi",
@@ -860,6 +860,97 @@
           "ioValue": 19.8
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.7766990291262136,
+      "y": 0.9168591224018476,
+      "uniqueID": "id-572",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 99
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.7254584681769147,
+      "y": 0.9330254041570438,
+      "uniqueID": "id-575",
+      "name": "x*5",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.8,
+          "currentEquation": "x"
+        }
+      ],
+      "currentEquation": "x*5"
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.8225458468176915,
+      "y": 0.9145496535796767,
+      "uniqueID": "id-579"
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.9466019417475728,
+      "y": 0.6258660508083141,
+      "uniqueID": "id-583",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "cut-cut-cut-fuse-fuse-cut-shrinkWrap-fuse-move-circle-29.700000000000003-134.82426627478202-0-0-move-rectangle-19.8-59.400000000000006-9.9-0-0-50-move-circle-10-134.82426627478202-0-0-move-rectangle-59.400000000000006-19.8--29.700000000000003-0-0-move-rectangle-19.8-39.6--49.5--29.700000000000003-0-move-move-circle-3.25--39.6--9.9-0-2.2980970388562794--2.2980970388562794-0-move-move-circle-3.25-0-9.9-0--2.2980970388562794-2.2980970388562794-0-move-move-circle-3.25-0--9.9-0--2.2980970388562794--2.2980970388562794-0",
+            "tags": [],
+            "bom": [
+              []
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "dimension": "2D"
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.8705501618122977,
+      "y": 0.9191685912240185,
+      "uniqueID": "id-587",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 134.82426627478202
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -902,6 +993,11 @@
       "ap2Name": "height",
       "ap1ID": "id-10",
       "ap2ID": "id-421"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-10",
+      "ap2ID": "id-575"
     },
     {
       "ap2Name": "x",
@@ -999,6 +1095,11 @@
       "ap2ID": "id-184"
     },
     {
+      "ap2Name": "xDist",
+      "ap1ID": "id-69",
+      "ap2ID": "id-587"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-73",
       "ap2ID": "id-95"
@@ -1007,6 +1108,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-76",
       "ap2ID": "id-131"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-76",
+      "ap2ID": "id-579"
     },
     {
       "ap2Name": "geometry",
@@ -1219,9 +1325,9 @@
       "ap2ID": "id-220"
     },
     {
-      "ap2Name": "geometry",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-411",
-      "ap2ID": "id-421"
+      "ap2ID": "id-583"
     },
     {
       "ap2Name": "geometry2",
@@ -1232,6 +1338,21 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-421",
       "ap2ID": "id-5"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-572",
+      "ap2ID": "id-579"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-575",
+      "ap2ID": "id-572"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-579",
+      "ap2ID": "id-587"
     }
   ],
   "unitsKey": "MM",
