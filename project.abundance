@@ -482,13 +482,13 @@
     },
     {
       "atomType": "Move",
-      "x": 0.44390507011866237,
-      "y": 0.6535796766743649,
+      "x": 0.4347357065803668,
+      "y": 0.6836027713625865,
       "uniqueID": "id-155",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -49.5
         },
         {
           "name": "yDist",
@@ -497,6 +497,44 @@
         {
           "name": "zDist",
           "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.3786407766990291,
+      "y": 0.7505773672055427,
+      "uniqueID": "id-161",
+      "name": "x - y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": -29.700000000000003
+        },
+        {
+          "name": "y",
+          "ioValue": 19.8
+        }
+      ],
+      "currentEquation": "x - y"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5334412081984897,
+      "y": 0.3903002309468822,
+      "uniqueID": "id-166",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
         }
       ]
     }
@@ -531,6 +569,11 @@
       "ap2Name": "x length",
       "ap1ID": "id-10",
       "ap2ID": "id-151"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-10",
+      "ap2ID": "id-161"
     },
     {
       "ap2Name": "x",
@@ -653,6 +696,11 @@
       "ap2ID": "id-111"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-127",
+      "ap2ID": "id-166"
+    },
+    {
       "ap2Name": "geometry2",
       "ap1ID": "id-131",
       "ap2ID": "id-127"
@@ -673,8 +721,28 @@
       "ap2ID": "id-155"
     },
     {
+      "ap2Name": "x",
+      "ap1ID": "id-141",
+      "ap2ID": "id-161"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-145",
+      "ap2ID": "id-166"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-151",
+      "ap2ID": "id-155"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-155",
+      "ap2ID": "id-166"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-161",
       "ap2ID": "id-155"
     }
   ],
