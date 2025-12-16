@@ -125,7 +125,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.44,
+      "y": 0.308,
       "uniqueID": "id-56",
       "name": "BoltDiameter",
       "type": "number"
@@ -682,7 +682,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.506,
+      "y": 0.374,
       "uniqueID": "id-217",
       "name": "BitDiameter",
       "type": "number"
