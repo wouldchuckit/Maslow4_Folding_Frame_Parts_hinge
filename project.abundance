@@ -25,6 +25,10 @@
     {
       "name": "BeamHeight",
       "ioValue": 203
+    },
+    {
+      "name": "BoltDiameter",
+      "ioValue": 20
     }
   ],
   "topLevel": true,
@@ -149,6 +153,32 @@
         }
       ],
       "currentEquation": "x * y"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.5740831408775982,
+      "uniqueID": "id-56",
+      "name": "BoltDiameter",
+      "type": "number"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.17745415318230853,
+      "y": 0.7367205542725173,
+      "uniqueID": "id-59",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
