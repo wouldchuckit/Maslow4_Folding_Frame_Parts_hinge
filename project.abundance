@@ -15,8 +15,7 @@
     },
     {
       "name": "TabletopLength",
-      "ioValue": 8,
-      "currentEquation": "8"
+      "ioValue": 8
     },
     {
       "name": "BeamLength",
@@ -46,7 +45,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.23690069284064663,
+      "y": 0.10999999999999999,
       "uniqueID": "id-10",
       "name": "WoodThick",
       "type": "number"
@@ -54,7 +53,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.43490069284064664,
+      "y": 0.176,
       "uniqueID": "id-17",
       "name": "TabletopWidth",
       "type": "number"
@@ -62,7 +61,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.5080831408775981,
+      "y": 0.242,
       "uniqueID": "id-20",
       "name": "TabletopLength",
       "type": "number"
@@ -76,8 +75,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 4,
-          "currentEquation": "1"
+          "ioValue": 4
         },
         {
           "name": "y",
@@ -89,7 +87,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.3071593533487298,
+      "y": 0.308,
       "uniqueID": "id-31",
       "name": "BeamLength",
       "type": "number"
@@ -97,7 +95,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.3695150115473441,
+      "y": 0.374,
       "uniqueID": "id-37",
       "name": "BeamHeight",
       "type": "number"
@@ -115,8 +113,7 @@
         },
         {
           "name": "pi",
-          "ioValue": 3.141592653589793,
-          "currentEquation": "3.141592653589793"
+          "ioValue": 3.141592653589793
         }
       ],
       "currentEquation": "x * 180/ pi"
@@ -130,8 +127,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 19.8,
-          "currentEquation": "1"
+          "ioValue": 19.8
         }
       ],
       "currentEquation": "x * 3"
@@ -153,7 +149,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.5740831408775982,
+      "y": 0.44,
       "uniqueID": "id-56",
       "name": "BoltDiameter",
       "type": "number"
@@ -170,13 +166,12 @@
           "ioValue": 59.400000000000006
         },
         {
-          "name": "y",
-          "ioValue": 0.4336476090008061
+          "name": "pi",
+          "ioValue": 3.141592653589793
         },
         {
-          "name": "pi",
-          "ioValue": 3.141592653589793,
-          "currentEquation": "3.141592653589793"
+          "name": "y",
+          "ioValue": 0.4336476090008061
         }
       ],
       "currentEquation": ".5*x* tan(.5*pi - y)"
@@ -193,14 +188,12 @@
           "ioValue": 59.400000000000006
         },
         {
-          "name": "y",
-          "ioValue": 0.4336476090008061,
-          "currentEquation": "2"
+          "name": "pi",
+          "ioValue": 3.141592653589793
         },
         {
-          "name": "pi",
-          "ioValue": 3.141592653589793,
-          "currentEquation": "3.141592653589793"
+          "name": "y",
+          "ioValue": 0.4336476090008061
         }
       ],
       "currentEquation": ".5*x / (cos(.5*pi - y))"
@@ -516,8 +509,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.5005393743257821,
-      "y": 0.24942263279445726,
+      "x": 0.5080906148867314,
+      "y": 0.20785219399538107,
       "uniqueID": "id-172",
       "ioValues": [
         {
@@ -628,8 +621,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 6.5,
-          "currentEquation": "6.5"
+          "ioValue": 6.5
         }
       ]
     },
@@ -653,8 +645,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 6.5,
-          "currentEquation": "6.5"
+          "ioValue": 6.5
         }
       ]
     },
@@ -700,8 +691,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.40560949298813376,
-      "y": 0.9122401847575057,
+      "x": 0.3786407766990291,
+      "y": 0.8498845265588915,
       "uniqueID": "id-213",
       "name": "-x",
       "ioValues": [
@@ -715,7 +706,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.6400831408775982,
+      "y": 0.506,
       "uniqueID": "id-217",
       "name": "BitDiameter",
       "type": "number"
@@ -723,27 +714,27 @@
     {
       "atomType": "Equation",
       "x": 0.4892125134843581,
-      "y": 0.8960739030023095,
+      "y": 0.8983833718244804,
       "uniqueID": "id-220",
       "name": "x/ sqrt(2)",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 6.5
+          "ioValue": 3.25
         }
       ],
       "currentEquation": "x/ sqrt(2)"
     },
     {
       "atomType": "Equation",
-      "x": 0.552319309600863,
-      "y": 0.9053117782909931,
+      "x": 0.557713052858684,
+      "y": 0.8775981524249422,
       "uniqueID": "id-225",
       "name": "-x",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 4.596194077712559
+          "ioValue": 2.2980970388562794
         }
       ],
       "currentEquation": "-x"
@@ -790,11 +781,11 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 4.596194077712559
+          "ioValue": 2.2980970388562794
         },
         {
           "name": "yDist",
-          "ioValue": 4.596194077712559
+          "ioValue": -2.2980970388562794
         },
         {
           "name": "zDist",
@@ -810,11 +801,11 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -4.596194077712559
+          "ioValue": -2.2980970388562794
         },
         {
           "name": "yDist",
-          "ioValue": -4.596194077712559
+          "ioValue": -2.2980970388562794
         },
         {
           "name": "zDist",
@@ -830,17 +821,44 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": -2.2980970388562794
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 2.2980970388562794
         },
         {
           "name": "zDist",
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.43527508090614886,
+      "y": 0.9122401847575057,
+      "uniqueID": "id-261",
+      "name": "x/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 6.5
+        }
+      ],
+      "currentEquation": "x/2"
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.7189859762675296,
+      "y": 0.20554272517321018,
+      "uniqueID": "id-411"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7103559870550162,
+      "y": 0.5796766743648961,
+      "uniqueID": "id-415",
+      "ioValues": []
     }
   ],
   "allConnectors": [
@@ -1070,6 +1088,11 @@
       "ap2ID": "id-155"
     },
     {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-172",
+      "ap2ID": "id-411"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-192",
       "ap2ID": "id-207"
@@ -1122,7 +1145,7 @@
     {
       "ap2Name": "x",
       "ap1ID": "id-217",
-      "ap2ID": "id-220"
+      "ap2ID": "id-261"
     },
     {
       "ap2Name": "x",
@@ -1137,7 +1160,7 @@
     {
       "ap2Name": "yDist",
       "ap1ID": "id-220",
-      "ap2ID": "id-243"
+      "ap2ID": "id-255"
     },
     {
       "ap2Name": "xDist",
@@ -1150,6 +1173,16 @@
       "ap2ID": "id-249"
     },
     {
+      "ap2Name": "xDist",
+      "ap1ID": "id-225",
+      "ap2ID": "id-255"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-225",
+      "ap2ID": "id-243"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-229",
       "ap2ID": "id-243"
@@ -1158,6 +1191,11 @@
       "ap2Name": "xDist",
       "ap1ID": "id-235",
       "ap2ID": "id-229"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-261",
+      "ap2ID": "id-220"
     }
   ],
   "unitsKey": "MM",
