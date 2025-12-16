@@ -252,20 +252,55 @@
       ]
     },
     {
-      "atomType": "Difference",
-      "x": 0.32578209277238407,
-      "y": 0.23094688221709006,
-      "uniqueID": "id-79"
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.3861920172599784,
-      "y": 0.25635103926096997,
-      "uniqueID": "id-83",
+      "atomType": "Rectangle",
+      "x": 0.31014023732470336,
+      "y": 0.4364896073903002,
+      "uniqueID": "id-87",
       "ioValues": [
         {
-          "name": "height",
+          "name": "x length",
           "ioValue": 19.8
+        },
+        {
+          "name": "y length",
+          "ioValue": 59.400000000000006
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4681769147788565,
+      "y": 0.27251732101616627,
+      "uniqueID": "id-95",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 134.82426627478202
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "ShrinkWrap",
+      "x": 0.5706580366774541,
+      "y": 0.3787528868360277,
+      "uniqueID": "id-101",
+      "name": "Shrink Wrap",
+      "ioValues": [
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
         }
       ]
     }
@@ -282,9 +317,9 @@
       "ap2ID": "id-52"
     },
     {
-      "ap2Name": "height",
+      "ap2Name": "x length",
       "ap1ID": "id-10",
-      "ap2ID": "id-83"
+      "ap2ID": "id-87"
     },
     {
       "ap2Name": "x",
@@ -327,6 +362,11 @@
       "ap2ID": "id-73"
     },
     {
+      "ap2Name": "y length",
+      "ap1ID": "id-45",
+      "ap2ID": "id-87"
+    },
+    {
       "ap2Name": "diameter",
       "ap1ID": "id-56",
       "ap2ID": "id-76"
@@ -342,20 +382,11 @@
       "ap2ID": "id-69"
     },
     {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-73",
-      "ap2ID": "id-79"
+      "ap2Name": "xDist",
+      "ap1ID": "id-69",
+      "ap2ID": "id-95"
     },
-    {
-      "ap2Name": "geometry2",
-      "ap1ID": "id-76",
-      "ap2ID": "id-79"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-79",
-      "ap2ID": "id-83"
-    }
+    null
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
