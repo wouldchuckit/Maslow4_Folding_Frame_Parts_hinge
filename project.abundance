@@ -126,7 +126,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1,
+          "ioValue": 19.8,
           "currentEquation": "1"
         },
         {
@@ -145,7 +145,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 19.8
         },
         {
           "name": "y",
@@ -171,7 +171,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 203
+          "ioValue": 59.400000000000006
         },
         {
           "name": "y",
@@ -187,24 +187,105 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.1855447680690399,
-      "y": 0.8568129330254042,
+      "x": 0.1634304207119741,
+      "y": 0.8498845265588915,
       "uniqueID": "id-64",
+      "name": ".5*x / (cos(.5*pi - y))",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 59.400000000000006
+        },
+        {
+          "name": "y",
+          "ioValue": 0.4336476090008061,
+          "currentEquation": "2"
+        },
+        {
+          "name": "pi",
+          "ioValue": 3.141592653589793,
+          "currentEquation": "3.141592653589793"
+        }
+      ],
+      "currentEquation": ".5*x / (cos(.5*pi - y))"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.2464940668824164,
+      "y": 0.7598152424942263,
+      "uniqueID": "id-69",
       "name": "x + y",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 64.14087483807924
         },
         {
           "name": "y",
-          "ioValue": 1
+          "ioValue": 70.68339143670276
         }
       ],
       "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.2545846817691478,
+      "y": 0.18244803695150116,
+      "uniqueID": "id-73",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 59.400000000000006
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.2551240560949299,
+      "y": 0.3279445727482679,
+      "uniqueID": "id-76",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 20
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.32578209277238407,
+      "y": 0.23094688221709006,
+      "uniqueID": "id-79"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3861920172599784,
+      "y": 0.25635103926096997,
+      "uniqueID": "id-83",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 19.8
+        }
+      ]
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-10",
+      "ap2ID": "id-45"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-10",
+      "ap2ID": "id-52"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-10",
+      "ap2ID": "id-83"
+    },
     {
       "ap2Name": "x",
       "ap1ID": "id-17",
@@ -226,9 +307,54 @@
       "ap2ID": "id-59"
     },
     {
+      "ap2Name": "y",
+      "ap1ID": "id-23",
+      "ap2ID": "id-64"
+    },
+    {
       "ap2Name": "x",
-      "ap1ID": "id-37",
+      "ap1ID": "id-45",
       "ap2ID": "id-59"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-45",
+      "ap2ID": "id-64"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-45",
+      "ap2ID": "id-73"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-56",
+      "ap2ID": "id-76"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-59",
+      "ap2ID": "id-69"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-64",
+      "ap2ID": "id-69"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-73",
+      "ap2ID": "id-79"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-76",
+      "ap2ID": "id-79"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-79",
+      "ap2ID": "id-83"
     }
   ],
   "unitsKey": "MM",
