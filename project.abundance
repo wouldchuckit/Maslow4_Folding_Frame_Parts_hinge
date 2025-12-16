@@ -61,10 +61,10 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.15210355987055016,
-      "y": 0.6351039260969977,
+      "x": 0.08306364617044229,
+      "y": 0.6812933025404158,
       "uniqueID": "id-23",
-      "name": "atan(x/y)",
+      "name": "atan(x/y) -.03",
       "ioValues": [
         {
           "name": "x",
@@ -76,7 +76,7 @@
           "ioValue": 8
         }
       ],
-      "currentEquation": "atan(x/y)"
+      "currentEquation": "atan(x/y) -.03"
     },
     {
       "atomType": "Input",
@@ -96,21 +96,22 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.24271844660194175,
-      "y": 0.6096997690531177,
+      "x": 0.05124056094929881,
+      "y": 0.836027713625866,
       "uniqueID": "id-40",
-      "name": "x + y",
+      "name": "x * 180/ pi",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 0.4336476090008061
         },
         {
-          "name": "y",
-          "ioValue": 1
+          "name": "pi",
+          "ioValue": 3.141592653589793,
+          "currentEquation": "3.141592653589793"
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "x * 180/ pi"
     }
   ],
   "allConnectors": [
@@ -123,6 +124,11 @@
       "ap2Name": "y",
       "ap1ID": "id-20",
       "ap2ID": "id-23"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-23",
+      "ap2ID": "id-40"
     }
   ],
   "unitsKey": "MM",
