@@ -29,6 +29,10 @@
     {
       "name": "BoltDiameter",
       "ioValue": 20
+    },
+    {
+      "name": "BitDiameter",
+      "ioValue": 6.5
     }
   ],
   "topLevel": true,
@@ -715,6 +719,14 @@
         }
       ],
       "currentEquation": "-x"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.6400831408775982,
+      "uniqueID": "id-217",
+      "name": "BitDiameter",
+      "type": "number"
     }
   ],
   "allConnectors": [
