@@ -1,13 +1,58 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-4",
-    "name": "Maslow4_Folding_Frame_Parts_hinge",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-4",
+  "name": "Maslow4_Folding_Frame_Parts_hinge",
+  "ioValues": [
+    {
+      "name": "WoodThick",
+      "ioValue": 10
+    },
+    {
+      "name": "BeamHeight",
+      "ioValue": 10
+    },
+    {
+      "name": "BeamLength",
+      "ioValue": 10
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-5"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.23690069284064663,
+      "uniqueID": "id-10",
+      "name": "WoodThick",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.30290069284064663,
+      "uniqueID": "id-12",
+      "name": "BeamLength",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.36890069284064664,
+      "uniqueID": "id-15",
+      "name": "BeamHeight",
+      "type": "number"
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
