@@ -14,11 +14,11 @@
       "ioValue": 10
     },
     {
-      "name": "TabletopWidth",
+      "name": "4",
       "ioValue": 10
     },
     {
-      "name": "TabletopLength",
+      "name": "8",
       "ioValue": 10
     },
     {
@@ -63,7 +63,7 @@
       "x": 0.01815,
       "y": 0.43490069284064664,
       "uniqueID": "id-17",
-      "name": "TabletopWidth",
+      "name": "4",
       "type": "number"
     },
     {
@@ -71,13 +71,13 @@
       "x": 0.01815,
       "y": 0.5009006928406466,
       "uniqueID": "id-20",
-      "name": "TabletopLength",
+      "name": "8",
       "type": "number"
     },
     {
       "atomType": "Equation",
-      "x": 0.16936353829557713,
-      "y": 0.4988452655889145,
+      "x": 0.15210355987055016,
+      "y": 0.6351039260969977,
       "uniqueID": "id-23",
       "name": "atan(x/y)",
       "ioValues": [
