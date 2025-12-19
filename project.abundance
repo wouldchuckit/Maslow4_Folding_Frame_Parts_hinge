@@ -16,7 +16,8 @@
     },
     {
       "name": "TabletopLength",
-      "ioValue": 7
+      "ioValue": 7,
+      "currentEquation": "7"
     },
     {
       "name": "BoltDiameter",
@@ -93,8 +94,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.10949298813376485,
-      "y": 0.23556581986143188,
+      "x": 0.11434735706580366,
+      "y": 0.24711316397228636,
       "uniqueID": "id-45",
       "name": "x * 3",
       "ioValues": [
@@ -863,7 +864,32 @@
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "cut-cut-cut-fuse-cut-shrinkWrap-fuse-move-circle-12-30.245961564047235-0-0-move-rectangle-8-24-4-0-0-50-move-circle-10-30.245961564047235-0-0-move-rectangle-24-8--12-0-0-move-move-circle-3.25--16--4-0-2.2980970388562794--2.2980970388562794-0-move-move-circle-3.25-0-4-0--2.2980970388562794-2.2980970388562794-0-move-move-circle-3.25-0--4-0--2.2980970388562794--2.2980970388562794-0",
+            "tags": [],
+            "bom": [
+              []
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "dimension": "2D"
+          }
         },
         {
           "name": "Shape 2",
