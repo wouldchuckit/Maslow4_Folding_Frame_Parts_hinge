@@ -15,13 +15,11 @@
     },
     {
       "name": "TabletopLength",
-      "ioValue": 8,
-      "currentEquation": "8"
+      "ioValue": 8
     },
     {
       "name": "BoltDiameter",
-      "ioValue": 20,
-      "currentEquation": "20"
+      "ioValue": 20
     },
     {
       "name": "BitDiameter",
