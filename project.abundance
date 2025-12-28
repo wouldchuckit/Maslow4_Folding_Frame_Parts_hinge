@@ -1035,8 +1035,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.5922330097087378,
-      "y": 0.19861431870669746,
+      "x": 0.5927723840345199,
+      "y": 0.17782909930715934,
       "uniqueID": "id-778",
       "name": "-1.5*x",
       "ioValues": [
@@ -1156,8 +1156,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.8710895361380798,
-      "y": 0.23556581986143188,
+      "x": 0.593311758360302,
+      "y": 0.2678983833718245,
       "uniqueID": "id-803",
       "name": "1.5*y",
       "ioValues": [
@@ -1167,6 +1167,29 @@
         }
       ],
       "currentEquation": "1.5*y"
+    },
+    {
+      "atomType": "Color",
+      "x": 0.9158576051779935,
+      "y": 0.12933025404157045,
+      "uniqueID": "id-807",
+      "selectedColor": "Keep Out"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.9158576051779935,
+      "y": 0.39260969976905313,
+      "uniqueID": "id-810",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1571,9 +1594,9 @@
       "ap2ID": "id-411"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-421",
-      "ap2ID": "id-5"
+      "ap2ID": "id-810"
     },
     {
       "ap2Name": "geometry1",
@@ -1636,6 +1659,11 @@
       "ap2ID": "id-767"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-767",
+      "ap2ID": "id-807"
+    },
+    {
       "ap2Name": "zDist",
       "ap1ID": "id-773",
       "ap2ID": "id-767"
@@ -1669,6 +1697,16 @@
       "ap2Name": "yDist",
       "ap1ID": "id-803",
       "ap2ID": "id-767"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-807",
+      "ap2ID": "id-810"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-810",
+      "ap2ID": "id-5"
     }
   ],
   "unitsKey": "MM",
